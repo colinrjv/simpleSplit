@@ -39,9 +39,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Catamaran, Helvetica, Arial, sans-serif;
   font-weight: 200;
   letter-spacing: 1px;
-  
+
 }
 
+.icontext {
+  color: #fff;
+}
 p {
   font-size: 18px;
   line-height: 1.5;
@@ -69,7 +72,7 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-  color: #00aa8f;
+  color: #000;
   font-family: Catamaran, Helvetica, Arial, sans-serif;
   font-weight: 200;
   letter-spacing: 1px
@@ -118,7 +121,7 @@ section h2 {
     color: fade(white, 70%)
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #fff
+    color: #fff;
   }
   #mainNav .navbar-nav>li>a, #mainNav .navbar-nav>li>a:focus {
     color: rgba(255, 255, 255, .7)
